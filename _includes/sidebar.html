@@ -64,7 +64,7 @@
       {% else %}
         {% for category in categories_list %}
             <li>
-                <a href="#{{ category[0] | replace:' ','-' }}-ref">
+                <a href="{{ site.BASE_PATH }}/{{ site.categories_path }}/#{{ category[0] | replace:' ','-' }}-ref">
                     {{ category[0] | capitalize }} <span class="badge pull-right">{{ category[1].size }}</span>
                 </a>
             </li>
