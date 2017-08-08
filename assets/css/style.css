@@ -106,7 +106,7 @@ article .share .gplus:hover {
 }
 
 article{
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 }
 
 .article_body{
@@ -121,8 +121,9 @@ article{
 }
 
 article {
-	padding: 0 5% 0;
-	border-bottom: 1px solid #eee;
+	padding: 10px 10px 10px 10px;
+	background-color: #eee;
+	border-radius: 10px;
 }
 
 /*article.home div a, article.home pre a { color: #2c3e50; }*/
