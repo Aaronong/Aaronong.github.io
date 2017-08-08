@@ -81,6 +81,20 @@ article .share .gplus:hover {
 	padding-bottom: 10px;
 }
 
+.sidebar-category>li.active>a, .nav-tabs-vertical>li.active>a:hover, .nav-tabs-vertical>li.active>a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-right-color: transparent;
+}
+
+.sidebar-category>li>a {
+    line-height: 1.428571429;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
 .page-header {
 	color: #595e65;
 	/*text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);*/
