@@ -56,7 +56,7 @@
       {% if categories_list.first[0] == null %}
         {% for category in categories_list %}
             <li>
-                <a href="#{{ category | replace:' ','-' }}-ref">
+                <a href="{{ site.BASE_PATH }}/{{ site.categories_path }}/#{{ category | replace:' ','-' }}-ref">
                   {{ category | capitalize }} <span class="badge pull-right">{{ site.categories[category].size }}</span>
                </a>
             </li>
