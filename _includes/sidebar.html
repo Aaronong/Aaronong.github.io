@@ -50,7 +50,11 @@
 	</ul>
 </div>
 
+
+{% if page.url == site.BASE_PATH %}
 <div>
+	<p>PAGE URL = |{{ page.url}}| </p>
+	<p>BASE PATH = |{{site.BASE_PATH}}| </p>
     <ul class="nav sidebar-category cat-tag-menu">
       {% assign categories_list = site.categories %}
       {% if categories_list.first[0] == null %}
@@ -73,4 +77,6 @@
       {% assign categories_list = nil %}
     </ul>
 </div>
+{% endif %}
+
 <!-- sidebar.html end -->
