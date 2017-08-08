@@ -14,7 +14,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Timeline2
+      title: Timeline
 
 description: THE description
 author:
@@ -31,7 +31,7 @@ tags_path: tags.html
 # set it as url of an image
 # sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
 
-BASE_PATH: https://aaronong.github.io/
+BASE_PATH:
 
 gems:
   - jekyll-paginate
