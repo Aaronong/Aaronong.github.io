@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Relational Programming Language
-categories: [Blogs]
+categories: [Blog]
 tags: [ocaml, design]
 description: Creating a domain specific language to support relational algebra.
 ---

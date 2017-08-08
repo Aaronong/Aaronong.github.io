@@ -1,7 +1,7 @@
 ---
 layout: post
 title: You Don't Know JS (1) - Closures
-categories: [CS3216, Blogs]
+categories: [CS3216, Blog]
 tags: [javascript, asynchronous]
 description: Most Javascript developers get by without ever having to understand closures. You could get by without closure, but developing an understanding of closures will allow you to unlock more of Javascript's potential.
 ---
@@ -45,11 +45,11 @@ var foo = 'a';
 function bar() {
   var foo = 'b';
   console.log(foo); //prints 'b'
-}
+};
 
 function bar2() {
   console.log(foo) //prints 'a'
-}
+};
 
 bar();
 bar2();
@@ -78,13 +78,13 @@ function foo() {
   var bar = 'bar';
   function baz() {
     console.log(bar);
-  }
+  };
   bam(baz);
-}
+};
 
 function bam(func) {
   func(); //prints "bar"
-}
+};
 
 foo();
 ```
@@ -104,7 +104,7 @@ for (var i=1 ; i<=5 ; i++) {
   setTimeout(function(){
     console.log(i);
   }, i*1000);
-}
+};
 ```
 
 What does it print?
@@ -126,7 +126,7 @@ for (let i=1 ; i<=5 ; i++) {
   setTimeout(function(){
     console.log(i);
   }, i*1000);
-}
+};
 ```
 
 The let keyword ([introduced in ES6](https://github.com/lukehoban/es6features)) creates a new closure within each iteration of the loop. Hence, each of the asynchronous functions are enclosed within a different dynamic scope.
@@ -142,7 +142,7 @@ for (let i=1 ; i<=5 ; i++) {
       console.log(i);
     }, i*1000);
   })(i);
-}
+};
 ```
 
 For those who are not familiar with function expressions and IIFEs, read [this](http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-invoked-function-expressions.html).
