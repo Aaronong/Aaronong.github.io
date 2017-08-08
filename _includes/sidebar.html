@@ -1,7 +1,7 @@
 <!-- sidebar.html -->
 <header class="sidebar-header" role="banner">
 
-	{% if page.url != site.BASE_PATH %}
+	{% if page.url == site.BASE_PATH %}
 		<img src="{{ site.BASE_PATH}}/assets/ico/profilepic.jpg?s=150" class="img-circle" />
 	{% else %}
 		<a href="{{ site.BASE_PATH }}/">
@@ -51,7 +51,7 @@
 </div>
 
 
-{% if page.url != site.BASE_PATH %}
+{% if page.url == site.BASE_PATH %}
 <div>
 	<p>PAGE URL = |{{ page.url}}| </p>
 	<p>BASE PATH = |{{site.BASE_PATH}}| </p>
