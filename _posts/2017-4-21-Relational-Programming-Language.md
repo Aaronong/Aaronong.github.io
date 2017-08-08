@@ -6,13 +6,6 @@ tags: [ocaml, design]
 description: Creating a domain specific language to support relational algebra.
 ---
 
-# Relational Programming Language
-
-```
-Author: Aaron Ong  
-Date:   Apr 21, 2017 
-```
-
 #### Outline
 
 In this [project](https://github.com/Aaronong/RelationalPL), I extended the sPL language to include support for relational algebra. I also repurposed the ePL interpreter to handle interpreted execution of all of the expressions available in the extended sPL language.

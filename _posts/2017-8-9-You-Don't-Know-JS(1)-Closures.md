@@ -6,8 +6,6 @@ tags: [javascript, asynchronous]
 description: Most Javascript developers get by without ever having to understand closures. You could get by without closure, but developing an understanding of closures will allow you to unlock more of Javascript's potential.
 ---
 
-# You Don't Know JS (1) - Closures
-
 In an effort to prepare myself for CS3216, I spent the last two weeks refreshing my javascript knowledge. Having heard stellar reviews of the [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) series, I decided to dive deep into it hoping to develop a more complete understanding of the world's most misunderstood language.
 
 In this blog post series, I will share some of the insights that I have developed studying the book series. I will attempt to explore concepts in an javascript-experience agnostic manner for the benefit of non javascript developers. 
