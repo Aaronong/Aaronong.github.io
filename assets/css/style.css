@@ -120,7 +120,7 @@ article{
 	letter-spacing: 3px;
 }
 
-article {
+.article_card {
 	padding: 10px 10px 10px 10px;
 	background-color: #eee;
 	border-radius: 10px;
