@@ -1,11 +1,16 @@
 <!-- sidebar.html -->
 <header class="sidebar-header" role="banner">
-	<a href="{{ site.BASE_PATH }}/">
+
+	{% if page.url == site.BASE_PATH %}
 		<img src="{{ site.BASE_PATH}}/assets/ico/profilepic.jpg" class="img-circle" />
-	</a>
-	<h3 class="title">
+	{% else %}
+		<a href="{{ site.BASE_PATH }}/">
+			<img src="{{ site.BASE_PATH}}/assets/ico/profilepic.jpg" class="img-circle" />
+		</a>
+	{% endif %}
+<!-- 	<h3 class="title">
         <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
-    </h3>
+    </h3> -->
 </header>
 
 {% if site.author.bio %}
