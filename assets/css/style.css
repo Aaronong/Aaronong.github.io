@@ -81,8 +81,7 @@ article .share .gplus:hover {
 	padding-bottom: 10px;
 }
 
-.sidebar-category>li.active>a, .nav-tabs-vertical>li.active>a:hover, .nav-tabs-vertical>li.active>a:focus {
-    color: #555;
+.sidebar-category>li.active>a, .sidebar-category>li.active>a:hover, .sidebar-category>li.active>a:focus {
     cursor: default;
     background-color: #fff;
     border: 1px solid #ddd;

@@ -53,8 +53,7 @@
 
 {% if page.url == "/" %}
 <div>
-	<p>PAGE URL = |{{ page.url}}| </p>
-	<p>BASE PATH = |{{site.BASE_PATH}}| </p>
+	<br>
     <ul class="nav sidebar-category cat-tag-menu">
       {% assign categories_list = site.categories %}
       {% if categories_list.first[0] == null %}
