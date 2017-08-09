@@ -3,6 +3,7 @@ layout: post
 title: You Don't Know JS (1) - Closures
 categories: [CS3216, Blog]
 tags: [javascript, asynchronous]
+comments: true
 description: Most Javascript developers get by without ever having to understand closures. You could get by without closure, but developing an understanding of closures will allow you to unlock more of Javascript's potential.
 ---
 
