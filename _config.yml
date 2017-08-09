@@ -14,7 +14,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Timeline
+      title: Ramble
 
 description: THE description
 author:
@@ -22,7 +22,7 @@ author:
   email: aaronongcs@gmail.com
   github: Aaronong
   linkedin: aaronongcs
-  bio: A Developer's Journey
+  bio: A College Student's Ramblings
 
 rss_path: feed.xml
 categories_path: categories.html
