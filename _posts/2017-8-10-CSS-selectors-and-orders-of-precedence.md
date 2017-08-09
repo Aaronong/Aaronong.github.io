@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CSS Selectors and orders of precedence
-categories: [Programming, cs3216]
+categories: [Programming, CS3216]
 tags: [css, design]
 comments: true
 description: In this post, Aaron introduces CSS selectors from the ground-up and discusses the order of precedence between styling rules.
@@ -61,11 +61,11 @@ Within programming nomenclature, the * character often takes on a universal valu
 
 Combination selectors involve more than one rule. It combines multiple selectors together using binary operators. Similar to arithmetic expressions, combination selectors are also expressions. The table below will map out their parallels. 
 
-| Expressions      | Arithmetic Expressions | Combination Selectors |
-| ---------------- | ---------------------- | --------------------- |
-| Operands         | numbers                | html elements         |
-| Binary Operators | +, -, *, /             | Combinators           |
-| Expressions      | 3 + 2 / 4              | div > p + p           |
+|   Expressions    | Arithmetic Expressions | Combination Selectors |
+| :--------------: | :--------------------: | :-------------------: |
+|     Operands     |        numbers         |     html elements     |
+| Binary Operators |       +, -, *, /       |      Combinators      |
+|   Expressions    |       3 + 2 / 4        |      div > p + p      |
 
 ### Combinators
 
@@ -105,7 +105,7 @@ The child selector above selects all p elements in the DOM that are children (di
 
 In the html snippet above, "Hello World!" will be selected by the "div p" combination selector but not by the "div > p" combination selector. 
 
-**General sibling selectors**
+**General sibling selectors - '~'**
 
 ```css
 /*general sibling selector*/
