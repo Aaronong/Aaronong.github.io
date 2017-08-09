@@ -15,7 +15,7 @@ Basic selectors involve only a single rule. If the html element in question fulf
 
 ##### **Element Selector**
 
-```CSS
+```css
 /*element selector*/
 p {
   background-color: #eee;
@@ -26,7 +26,7 @@ The element selecter is the most basic amongst all CSS selectors. It simply sele
 
 **Class Selector**
 
-```CSS
+```css
 /*class selector*/
 .background {
   background-color: #eee;
@@ -37,7 +37,7 @@ The class selector selects all html elements with the background class attribute
 
 **ID Selector**
 
-```CSS
+```css
 /*id selector*/
 #grey-bg {
   background-color: #eee;
@@ -48,7 +48,7 @@ The ID selector above will select **the** html element with id='grey-bg'. Since 
 
 **Universal selector**
 
-```CSS
+```css
 /*universal selector*/
 * {
   background-color: #eee;
@@ -73,7 +73,7 @@ Combinators are the binary operators used in combination selectors. This section
 
 ##### **Descendant combinator -  ' '**
 
-```CSS
+```css
 /*descendant selector*/
 div p {
   background-color: #eee;
@@ -84,7 +84,7 @@ The descendant selector above selects all p elements in the DOM that are descend
 
 ##### **Child combinator - '>'**
 
-```CSS
+```css
 /*child selector*/
 div > p {
   background-color: #eee;
@@ -107,7 +107,7 @@ In the html snippet above, "Hello World!" will be selected by the "div p" combin
 
 **General sibling selectors**
 
-```CSS
+```css
 /*general sibling selector*/
 div ~ p {
   background-color: #eee;
@@ -118,7 +118,7 @@ The adjacent sibling selector above selects for all p elements that are siblings
 
 **Adjacent sibling combinator - '+'**
 
-```CSS
+```css
 /*adjacent sibling selector*/
 div + p {
   background-color: #eee;
@@ -139,7 +139,7 @@ In the html snipped above, the "div + p" combination selector will style "Hello"
 
 ### Attribute Selector
 
-```CSS
+```css
 /*attribute selector*/
 p[attr=val] {
   background-color: #eee;
