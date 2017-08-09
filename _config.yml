@@ -14,7 +14,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Ramble
+      title: Aaron.iostream
 
 description: THE description
 author:
@@ -22,7 +22,7 @@ author:
   email: aaronongcs@gmail.com
   github: Aaronong
   linkedin: aaronongcs
-  bio: A College Student's Ramblings
+  bio: A Developer's Journey with non-human languages
 
 rss_path: feed.xml
 categories_path: categories.html
