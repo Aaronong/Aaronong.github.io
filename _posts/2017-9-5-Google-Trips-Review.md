@@ -7,7 +7,7 @@ comments: true
 description: A review of Google Trips.
 ---
 
-## Google Trips Review
+
 
 Today, I will be reviewing Google Trips, an application that helps you to manage your reservations and plan your trip. 
 
