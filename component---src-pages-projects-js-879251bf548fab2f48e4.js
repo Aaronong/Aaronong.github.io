@@ -1,0 +1,2 @@
+webpackJsonp([0xc260c743ec7c],{407:function(e,t,a){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var c=a(2),u=l(c),n=a(60),r=(l(n),a(118)),d=l(r),s=function(e){e.data;return u.default.createElement("div",{className:"projects-page page-wrap"},u.default.createElement("h1",{className:"page-title"},"Project"),u.default.createElement(d.default,null))};t.default=s,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-projects-js-879251bf548fab2f48e4.js.map
