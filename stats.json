@@ -21,8 +21,8 @@
       "path---blog-fs-project-b1901ca8a356e383e543.js.map"
     ],
     "path---blog": [
-      "path---blog-392a2d9d60325ce3fc2c.js",
-      "path---blog-392a2d9d60325ce3fc2c.js.map"
+      "path---blog-c1cd3ee102b4b371f419.js",
+      "path---blog-c1cd3ee102b4b371f419.js.map"
     ],
     "path---blog-roundup-1": [
       "path---blog-roundup-1-f565e3fcfdcba95ffa2d.js",
@@ -31,6 +31,10 @@
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---blog-parallel-lines": [
+      "path---blog-parallel-lines-c286761fc35f0a61edc3.js",
+      "path---blog-parallel-lines-c286761fc35f0a61edc3.js.map"
     ],
     "path---blog-closures": [
       "path---blog-closures-44e41bd0ae289ce25af4.js",
@@ -61,8 +65,8 @@
       "path---blog-hello-world-2a7e9bc11c55e957b35f.js.map"
     ],
     "path---blog-spawn": [
-      "path---blog-spawn-34c57e3b081cfe9dc4d6.js",
-      "path---blog-spawn-34c57e3b081cfe9dc4d6.js.map"
+      "path---blog-spawn-231f0ee21c9f78f681a3.js",
+      "path---blog-spawn-231f0ee21c9f78f681a3.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -113,8 +117,8 @@
       "path---blog-trade-gecko-743196764b370edec794.js.map"
     ],
     "app": [
-      "app-e9e0c39e2ce826e412f6.js",
-      "app-e9e0c39e2ce826e412f6.js.map"
+      "app-e926cc336616c2ef88ce.js",
+      "app-e926cc336616c2ef88ce.js.map"
     ],
     "path---blog-roundup-3": [
       "path---blog-roundup-3-2c5f073c2536821cdde2.js",
